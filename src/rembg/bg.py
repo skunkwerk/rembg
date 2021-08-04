@@ -3,9 +3,9 @@ import io
 
 import numpy as np
 from PIL import Image
-from pymatting.alpha.estimate_alpha_cf import estimate_alpha_cf
-from pymatting.foreground.estimate_foreground_ml import estimate_foreground_ml
-from pymatting.util.util import stack_images
+#from pymatting.alpha.estimate_alpha_cf import estimate_alpha_cf
+#from pymatting.foreground.estimate_foreground_ml import estimate_foreground_ml
+#from pymatting.util.util import stack_images
 from scipy.ndimage.morphology import binary_erosion
 
 from .u2net import detect
